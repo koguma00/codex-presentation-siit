@@ -23,7 +23,7 @@ class PackagingTests(unittest.TestCase):
         self.assertEqual(marketplace["name"], "siit-presentation")
         self.assertEqual(marketplace["plugins"][0]["name"], "siit-presentation")
         self.assertEqual(manifest["name"], "siit-presentation")
-        self.assertEqual(manifest["version"], "0.1.0")
+        self.assertEqual(manifest["version"], "0.1.1")
 
     def test_skill_and_reference_assets_exist(self):
         self.assertIn(

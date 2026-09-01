@@ -10,6 +10,9 @@ A Codex plugin for creating research presentations in the user's preferred SIIT/
 4. Finish master application, exact alignment, spacing, line breaks, figure treatment, and export checks in PowerPoint.
 5. Use the bundled HTML, SVG, PPTX, and THMX references to keep the design consistent across devices.
 
+If Google Slides cannot be accessed or edited during the drafting stage, ask the user how to
+proceed. Do not automatically replace the agreed Slides workflow with PPTX or HTML.
+
 The published reference deck is sanitized and contains generic content only. The user's raw example deck is not included.
 
 ## Install

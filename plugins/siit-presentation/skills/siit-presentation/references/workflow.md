@@ -11,8 +11,9 @@ Use Google Slides as the canonical working surface while the research story is c
 - Apply the SIIT title region, palette, spacing, and layout families early enough to expose
   density problems, but do not spend time on pixel-level polish.
 
-If Google Slides is unavailable or the user explicitly requests a local-only workflow, use an
-editable PPTX draft while preserving the same iteration/finalization separation.
+If Google Slides cannot be accessed or edited, stop before authoring and ask the user how to
+proceed. Continue with an editable PPTX draft only when the user explicitly chooses a local-only
+or PPTX-first workflow. Do not infer that choice from tool unavailability.
 
 ## Phase 2: revision
 
