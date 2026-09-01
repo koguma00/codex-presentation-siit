@@ -1,0 +1,41 @@
+{
+  "name": "siit-presentation",
+  "version": "0.1.0",
+  "description": "Google Slides-first research presentation authoring with detailed PowerPoint finishing in the user's SIIT visual style.",
+  "author": {
+    "name": "Junwon Ko",
+    "url": "https://github.com/koguma00"
+  },
+  "homepage": "https://github.com/koguma00/codex-siit-presentation#readme",
+  "repository": "https://github.com/koguma00/codex-siit-presentation",
+  "license": "MIT",
+  "keywords": [
+    "presentation",
+    "google-slides",
+    "powerpoint",
+    "research",
+    "siit",
+    "kaist",
+    "noto-sans-kr"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SIIT Presentation",
+    "shortDescription": "Create and finish SIIT-style research decks.",
+    "longDescription": "Develops research-presentation narratives in Google Slides, then finishes detailed layout and export quality in PowerPoint using the user's SIIT/KAIST design system, sanitized templates, and inspectable HTML references.",
+    "developerName": "Junwon Ko",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/koguma00/codex-siit-presentation",
+    "defaultPrompt": [
+      "Draft this research talk in Google Slides using my SIIT style.",
+      "Revise the story, then finish the deck in PowerPoint.",
+      "Apply my SIIT presentation design to this deck."
+    ],
+    "brandColor": "#004191"
+  }
+}

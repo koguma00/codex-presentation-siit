@@ -1,0 +1,20 @@
+{
+  "name": "siit-presentation",
+  "interface": {
+    "displayName": "SIIT Presentation"
+  },
+  "plugins": [
+    {
+      "name": "siit-presentation",
+      "source": {
+        "source": "local",
+        "path": "./plugins/siit-presentation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
