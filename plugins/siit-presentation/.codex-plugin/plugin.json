@@ -6,8 +6,8 @@
     "name": "Junwon Ko",
     "url": "https://github.com/koguma00"
   },
-  "homepage": "https://github.com/koguma00/codex-siit-presentation#readme",
-  "repository": "https://github.com/koguma00/codex-siit-presentation",
+  "homepage": "https://github.com/koguma00/codex-presentation-siit#readme",
+  "repository": "https://github.com/koguma00/codex-presentation-siit",
   "license": "MIT",
   "keywords": [
     "presentation",
@@ -30,7 +30,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://github.com/koguma00/codex-siit-presentation",
+    "websiteURL": "https://github.com/koguma00/codex-presentation-siit",
     "defaultPrompt": [
       "Draft this research talk in Google Slides using my SIIT style.",
       "Revise the story, then finish the deck in PowerPoint.",

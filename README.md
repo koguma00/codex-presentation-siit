@@ -15,7 +15,7 @@ The published reference deck is sanitized and contains generic content only. The
 ## Install
 
 ```bash
-codex plugin marketplace add https://github.com/koguma00/codex-siit-presentation.git --ref main
+codex plugin marketplace add https://github.com/koguma00/codex-presentation-siit.git --ref main
 codex plugin add siit-presentation@siit-presentation
 ```
 
