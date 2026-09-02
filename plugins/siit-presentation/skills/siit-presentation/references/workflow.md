@@ -15,7 +15,9 @@ Use Google Slides as the canonical working surface while the research story is c
   empty or overlapping title box.
 - Do not assume that inherited layout placeholders share the same geometry as manually positioned
   titles. For every non-cover slide, normalize title X/Y, effective width and height, font size,
-  paragraph spacing, and vertical alignment against one approved reference slide.
+  paragraph spacing, and vertical alignment against one approved reference slide. Remove unintended
+  empty title paragraphs: identical box coordinates can still render at different heights when a
+  vertically centered title contains trailing blank lines.
 
 If Google Slides cannot be accessed or edited, stop before authoring and ask the user how to
 proceed. Continue with an editable PPTX draft only when the user explicitly chooses a local-only
