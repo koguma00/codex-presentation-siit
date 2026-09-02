@@ -26,6 +26,9 @@ or PPTX-first workflow. Do not infer that choice from tool unavailability.
 Revise argument and layout together.
 
 - Verify that each slide has one communicative job and a defensible takeaway.
+- When a slide's purpose changes, reassess what its layout implies. Use opposition or directional
+  arrows only when the content supports contrast or sequence; a prior-work overview should map
+  each work to its research question without implying exclusive choices or an unverified lineage.
 - Remove duplicate setup, premature detail, and transitions that do not advance the argument.
 - Replace placeholders with source-backed figures, tables, citations, and results.
 - Keep speaker-only explanation in notes when the working surface supports it.
@@ -65,6 +68,9 @@ Inspect the actual exported artifact, not only the authoring surface.
 - For every newly created slide and every slide sharing its layout rule, inspect both the rendered
   image and the object tree: keep exactly one intended title box, remove unused generated
   placeholders, and compare title geometry against the approved reference slide.
+- Check consistency across prior-work introductions, overview slides, summary tables, and speaker
+  notes after changing the selected literature. Remove stale entries unless they have an explicit
+  remaining role, and inspect every affected slide in the rendered deck.
 - Verify that every reported number and citation matches its source.
 - Deliver the editable source plus a stable inspection format when requested.
 
