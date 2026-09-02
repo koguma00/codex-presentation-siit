@@ -10,6 +10,9 @@ Use Google Slides as the canonical working surface while the research story is c
 - Use diagrams and placeholder figure frames to test information structure.
 - Apply the SIIT title region, palette, spacing, and layout families early enough to expose
   density problems, but do not spend time on pixel-level polish.
+- When a native layout creates title or body placeholders, inspect those generated objects before
+  adding custom text boxes. Reuse the layout placeholder or delete it first; never leave a second
+  empty or overlapping title box.
 
 If Google Slides cannot be accessed or edited, stop before authoring and ask the user how to
 proceed. Continue with an editable PPTX draft only when the user explicitly chooses a local-only
@@ -56,6 +59,9 @@ Inspect the actual exported artifact, not only the authoring surface.
 - Check PPTX reopening and PDF or image export.
 - Check Korean and Latin font substitution separately.
 - Check clipping, unintended wrapping, low-contrast labels, and off-slide elements.
+- For every newly created slide and every slide sharing its layout rule, inspect both the rendered
+  image and the object tree: keep exactly one intended title box and remove unused generated
+  placeholders.
 - Verify that every reported number and citation matches its source.
 - Deliver the editable source plus a stable inspection format when requested.
 
