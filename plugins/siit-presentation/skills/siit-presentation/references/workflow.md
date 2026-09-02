@@ -13,6 +13,9 @@ Use Google Slides as the canonical working surface while the research story is c
 - When a native layout creates title or body placeholders, inspect those generated objects before
   adding custom text boxes. Reuse the layout placeholder or delete it first; never leave a second
   empty or overlapping title box.
+- Do not assume that inherited layout placeholders share the same geometry as manually positioned
+  titles. For every non-cover slide, normalize title X/Y, effective width and height, font size,
+  paragraph spacing, and vertical alignment against one approved reference slide.
 
 If Google Slides cannot be accessed or edited, stop before authoring and ask the user how to
 proceed. Continue with an editable PPTX draft only when the user explicitly chooses a local-only
@@ -60,8 +63,8 @@ Inspect the actual exported artifact, not only the authoring surface.
 - Check Korean and Latin font substitution separately.
 - Check clipping, unintended wrapping, low-contrast labels, and off-slide elements.
 - For every newly created slide and every slide sharing its layout rule, inspect both the rendered
-  image and the object tree: keep exactly one intended title box and remove unused generated
-  placeholders.
+  image and the object tree: keep exactly one intended title box, remove unused generated
+  placeholders, and compare title geometry against the approved reference slide.
 - Verify that every reported number and citation matches its source.
 - Deliver the editable source plus a stable inspection format when requested.
 
